@@ -1,0 +1,11 @@
+
+#list{
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#speakers{
+    height: 125px;
+    width: 250px;
+}

@@ -8,30 +8,55 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <title>Document</title>
 </head>
-<body>
-    <div class="container-fluid" id="nav">Nav Bar</div>
 
-    <div class="container-fluid bg-dark bg-gradient text-white p-20 m-10"> 
-        <h1 class="display-4 d-flex justify-content-center m-5">Clear Statment on Event</h1>
-        <p class="d-flex justify-content-center"> secondary header </p>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark justify-content-center">
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Speakers</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Ticekts</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Venue</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--text between nav and columns-->
+
+    <div class="container-fluid bg-info bg-gradient text-white"> 
+        <h1 class="display-4 d-flex justify-content-center m-5">Welcome to the Best Speakers in Town</h1>
+        <p class="d-flex justify-content-center"> Including all your favorite Speakers! </p>
         <a class="btn btn-dark btn-sm m-15 p-2 bg-light d-flex justify-content-center text-black" href="#" role="button" id="jumbobutton"> Get the Tickets</a>
     </div> 
 
+    <div class="container-fluid text-center m-5 p-5">
+        <h2>Check out these Speakers!</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At labore eligendi similique quaerat nulla quas.</p>
+    </div>
+
+    <!--columns w/imgs-->
+
     <div class="row">
         <div class="col-3">
-            <img class="img-fluid" src"">
+            <img class="img-fluid" src="images/bart.jpg" id="speakers">
             1
         </div>
         <div class="col-3">
-            <img class="img-fluid" src"">
+            <img class="img-fluid" src="images/antmay.jpg" id="speakers">
             2
         </div>
         <div class="col-3">
-            <img class="img-fluid" src"">
+            <img class="img-fluid" src="images/maul.jpg" id="speakers">
             3
         </div>
         <div class="col-3">
-            <img class="img-fluid" src"">
+            <img class="img-fluid" src="images/castro.jpg" id="speakers">
             4
         </div>
     </div>
